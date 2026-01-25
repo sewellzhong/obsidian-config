@@ -1,0 +1,30 @@
+# =========================
+# Obsidian UI / runtime state
+# =========================
+
+# Workspace (layout, opened files, panes)
+workspace.json
+workspace
+workspace-*
+workspaces.json
+
+# View state
+graph.json
+bookmarks.json
+
+# Runtime / recovery
+file-recovery.json
+
+# AI / plugin generated index & cache
+copilot-index-*.json
+plugins/**/data.json
+plugins/**/cache/
+
+# Cache directories (if exist)
+cache/
+indexeddb/
+blob_storage/
+
+# OS noise
+.DS_Store
+Thumbs.db
