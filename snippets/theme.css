@@ -1,0 +1,210 @@
+                      /* ---------深色模式--------- */
+
+.theme-dark{
+  /* ---------页面样式相关--------- */
+  --background-primary: #252423;                          /* 定义背景颜色 */
+  --background-secondary: #242225;                        /* 定义左边栏背景色 */
+  --background-secondary-alt: #202020;                    /* 定义顶栏背景色 */
+  --background-modifier-message:#1b1b1b;                  /* 鼠标悬停提示信息背景色 */
+  --inline-title-color: gray;                             /* 页面内显示标文件名的颜色 */
+  --tab-border-color: #00CAF6;                            /* 当前Tab的高亮边框颜色 */
+  --tab-text-color-focused-active-current: var(--tab-border-color);   /* 当前Tab上文件名颜色 */
+  --interactive-hover: var(--background-secondary);   /* 设置里面，交互选项的hover颜色 */
+
+  /* ---------ribbon--------- */
+  --ribbon-background: var(--background-secondary);       /* ribbon 的背景颜色 */
+  --ribbon-background-collapsed: var(--background-secondary);
+  --divider-color: #444;                                  /* 分割线颜色 */
+  --nav-item-background-active: #323232;
+  --nav-item-color-active: #e06ef2;       /* 左边栏文件名颜色（已选择） */
+  --nav-item-color-hover: #e06ef2;        /* 左边栏项目颜色（鼠标悬停） */
+  --nav-item-color:#FFFFFF;               /* 左边栏文件名颜色（未选择） */
+  /* --background-modifier-border-focus: var(--tab-border-color); */
+  
+  /* ---------各种文字样式--------- */
+  --text-normal:#D3CECA;                     /* 正文颜色 */
+  --blockquote-color: cyan;                  /* 引用文字颜色 */
+  --strike-color: gray;                      /* 删除线文字的颜色 */
+  --bold-weight: 600;                        /* 加粗的字重 */
+  --bold-color: #F8C280;                     /* 加粗字体颜色 */
+  --italic-color: #AC80FF;                   /* 斜体字颜色 */
+  --h1-color: #D4DD00;                       /* 定义1-6级标题颜色 */
+  --h2-color: #C983FF;
+  --h3-color: #00CAF6;
+  --h4-color: #38A886;
+  --h5-color: #B9C1E0;
+  --h6-color: #979Db3;
+  --code-normal: #F97979;                    /* inline code 颜色 */
+  --code-background: #292939;                /* inline code 背景颜色 */
+  --list-marker-color:hsl(263deg 37% 69%);   /* 列表标识颜色 */
+  --graph-node-unresolved: cyan;             /* 关系图谱中未建文件节点颜色 */
+  --table-border-color: gray;                /* 表格线颜色 */
+  --table-header-background: var(--background-secondary); /* 表格标题栏背景色 */
+  --table-header-background-hover: var(--background-secondary-alt); /* 表格标题栏悬停背景色 */
+  --table-header-color:#C983FF;              /* 表格标题栏文字颜色 */
+  --table-header-font: "Consolas";                  /* 表头字体 */
+  --table-header-size: 1em;                             /* 表头字号 */
+  --table-header-weight: 400;                             /* 表头字体加粗 */
+  --hr-color: #666;                          /* HR 横线颜色 */
+  --hr-thickness: 2px;                       /* HR 横线厚度 */
+
+  /* ---------自定义标注高亮颜色(参考简阅读)----------- */
+  --sr-annote-color-0: #004daa;
+  --sr-annote-color-1: #80761d;
+  --sr-annote-color-2: #517579;
+  --sr-annote-color-3: #517080;
+  --sr-annote-color-4: #547534;
+  --sr-annote-color-5: #805b6d;
+  --highlight-border-thickness: 0px;
+  --highlight-border-color: cyan;
+  --highlight-text-color: var(--text-normal);
+
+  /* ---------自定义Callout主题色----------- */
+  --callout-bug: var(--color-red-rgb);
+  --callout-default: var(--color-blue-rgb);
+  --callout-error: var(--color-red-rgb);
+  --callout-example: var(--color-purple-rgb);
+  --callout-fail: var(--color-red-rgb);
+  --callout-important: var(--color-cyan-rgb);
+  --callout-info: 188,143,140;
+  --callout-question: var(--color-yellow-rgb);
+  --callout-success: var(--color-green-rgb);
+  --callout-summary: var(--color-cyan-rgb);
+  --callout-tip: 238,150,120;
+  --callout-todo: var(--color-blue-rgb);
+  --callout-warning: var(--color-orange-rgb);
+  --callout-quote: 155,155,150;
+}
+
+
+
+                                /* ---------浅色模式--------- */
+
+.theme-light{
+  /* ---------页面样式相关--------- */
+  --background-primary: #F8F4E1;                          /* 定义背景颜色 */
+  --background-secondary: #efebd4;                        /* 定义左边栏背景色 */
+  --background-secondary-alt: #eae6cf;                    /* 定义顶栏背景色 */
+  --background-modifier-message:#99E;                     /* 鼠标悬停提示信息背景色 */
+  --inline-title-color: gray;                             /* 页面内显示标文件名的颜色 */
+  --tab-border-color: #8313E2;                            /* 当前Tab的高亮边框颜色 */
+  --tab-text-color-focused-active-current: var(--tab-border-color); /* 当前Tab上文件名颜色 */
+  --interactive-hover: var(--background-secondary);   /* 设置里面，交互选项的hover颜色 */
+
+  /* ---------ribbon--------- */
+  --ribbon-background: var(--background-secondary);       /* ribbon 的背景颜色 */
+  --ribbon-background-collapsed: var(--background-secondary);
+  --divider-color: #D4D4D4;                               /* 分割线颜色 */
+  --nav-item-background-active: #dadac8;
+  --nav-item-color-active: #8313E2;       /* 左边栏文件名颜色（已选择） */
+  --nav-item-color-hover: #8313E2;        /* 左边栏项目颜色（鼠标悬停） */
+  --nav-item-color:#000000;               /* 左边栏文件名颜色（未选择） */
+  /* --background-modifier-border-focus: var(--tab-border-color); */
+  
+  /* ---------各种文字样式--------- */
+  --text-normal:#000000;                       /* 正文颜色 */
+  --blockquote-color: cyan;                  /* 引用文字颜色 */
+  --strike-color: gray;                      /* 删除线文字的颜色 */
+  --bold-weight: 600;                        /* 加粗的字重 */
+  --bold-color: #EA9B02;                     /* 加粗字体颜色 */
+  --italic-color: #AC80FF;                   /* 斜体字颜色 */
+  --h1-color: #D4DD00;                       /* 定义1-6级标题颜色 */
+  --h2-color: #C983FF;
+  --h3-color: #00CAF6;
+  --h4-color: #38A886;
+  --h5-color: #B9C1E0;
+  --h6-color: #979Db3;
+  --code-normal: #F97979;                    /* inline code 颜色 */
+  --code-background: #D4D4D4;                /* inline code 背景颜色 */
+  --list-marker-color:hsl(263deg 37% 69%);   /* 列表标识颜色 */
+  --graph-node-unresolved: cyan;             /* 关系图谱中未建文件节点颜色 */
+  --table-border-color: gray;                /* 表格线颜色 */
+  --table-header-background: var(--background-secondary); /* 表格标题栏背景色 */
+  --table-header-background-hover: var(--background-secondary-alt); /* 表格标题栏悬停背景色 */
+  --table-header-color:#8313E2;              /* 表格标题栏文字颜色 */
+  --table-header-font: "Consolas";                  /* 表头字体 */
+  --table-header-size: 0.9em;                             /* 表头字号 */
+  --table-header-weight: 300;                             /* 表头字体加粗 */
+  --hr-color: #B0B0B0;                       /* HR 横线颜色 */
+  --hr-thickness: 2px;                       /* HR 横线厚度 */
+
+  /* ---------自定义标注高亮颜色(参考简阅读)----------- */
+  --sr-annote-color-0: #004daa;
+  --sr-annote-color-1: #80761d;
+  --sr-annote-color-2: #517579;
+  --sr-annote-color-3: #517080;
+  --sr-annote-color-4: #547534;
+  --sr-annote-color-5: #805b6d;
+  --highlight-border-thickness: 0px;
+  --highlight-border-color: cyan;
+  --highlight-text-color: var(--text-normal);
+
+  /* ---------自定义Callout主题色----------- */
+  --callout-bug: var(--color-red-rgb);
+  --callout-default: var(--color-blue-rgb);
+  --callout-error: var(--color-red-rgb);
+  --callout-example: var(--color-purple-rgb);
+  --callout-fail: var(--color-red-rgb);
+  --callout-important: var(--color-cyan-rgb);
+  --callout-info: 188,143,140;
+  --callout-question: var(--color-yellow-rgb);
+  --callout-success: var(--color-green-rgb);
+  --callout-summary: var(--color-cyan-rgb);
+  --callout-tip: 238,150,120;
+  --callout-todo: var(--color-blue-rgb);
+  --callout-warning: var(--color-orange-rgb);
+  --callout-quote: 155,155,150;
+}
+
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+
+                                               /* 共用部分 */
+
+
+/* 标题横线 */
+.markdown-preview-view h1{
+  border-bottom: 2px solid;
+}
+.markdown-preview-view h2{
+  border-bottom: 2px solid;
+}
+.markdown-preview-view h3{
+  border-bottom: 2px solid;
+}
+.markdown-preview-view h4{
+  border-bottom: 2px solid;
+}
+.markdown-preview-view h5{
+  border-bottom: 2px solid;
+}
+.markdown-preview-view h6{
+  border-bottom: 2px solid;
+}
+
+/* 设置文件夹图标 */
+.nav-folder-title .nav-folder-title-content::before {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1024 1024' class='icon' version='1.1' xmlns='http://www.w3.org/2000/svg' fill='%23000000'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M853.333333 256H469.333333l-85.333333-85.333333H170.666667c-46.933333 0-85.333333 38.4-85.333334 85.333333v170.666667h853.333334v-85.333334c0-46.933333-38.4-85.333333-85.333334-85.333333z' fill='%23FFA000'%3E%3C/path%3E%3Cpath d='M853.333333 256H170.666667c-46.933333 0-85.333333 38.4-85.333334 85.333333v426.666667c0 46.933333 38.4 85.333333 85.333334 85.333333h682.666666c46.933333 0 85.333333-38.4 85.333334-85.333333V341.333333c0-46.933333-38.4-85.333333-85.333334-85.333333z' fill='%23FFCA28'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-size: 20px 20px;
+  transform: translate(0, 4px);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+
+/* 设置文件图标 */
+.nav-file-title .nav-file-title-content:first-child::before {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg t='1626093724345' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3856' width='200' height='200'%3E%3Cpath d='M896.5 328.5h-256c-13.3 0-24-10.7-24-24v-256c0-13.3 10.7-24 24-24s24 10.7 24 24v232h232c13.3 0 24 10.7 24 24s-10.7 24-24 24z' fill='%2311add2' p-id='3857'%3E%3C/path%3E%3Cpath d='M896.5 1000.5h-768c-13.3 0-24-10.7-24-24v-928c0-13.3 10.7-24 24-24h512c6.4 0 12.5 2.5 17 7l256 256c4.5 4.5 7 10.6 7 17v672c0 13.3-10.7 24-24 24z m-744-48h720V314.4L630.6 72.5H152.5v880z' fill='%2311add2' p-id='3858'%3E%3C/path%3E%3Cpath d='M704.5 792.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM704.5 632.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM704.5 472.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM448.5 312.5h-128c-13.3 0-24-10.7-24-24s10.7-24 24-24h128c13.3 0 24 10.7 24 24s-10.7 24-24 24z' fill='%2311add2' p-id='3859'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 18px 18px;
+  transform: translate(0, 4px);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
