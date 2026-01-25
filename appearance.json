@@ -1,0 +1,18 @@
+{
+  "baseFontSize": 14,
+  "translucency": true,
+  "accentColor": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Consolas",
+  "textFontFamily": "Consolas",
+  "monospaceFontFamily": "Consolas",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "title-high-light",
+    "theme"
+  ],
+  "showRibbon": true,
+  "baseFontSizeAction": true
+}
