@@ -32,7 +32,9 @@
     "utils/",
     "/README/",
     "/gitkeep/",
-    "/.*（MM）.*/"
+    "/.*（MM）.*/",
+    "knowledge-base/tools/",
+    "/.*｜MM/"
   ],
   "showIndentGuide": true,
   "readableLineLength": true,
